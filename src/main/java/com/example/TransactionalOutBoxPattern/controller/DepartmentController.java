@@ -20,6 +20,7 @@ public class DepartmentController {
     }
 
     /**
+     * @RequestBody
      * Return값으로 @RequestBody에서 넘겨받은 파라미터 값을 출력한다.
      * JSON 형식 요청 데이터를 자바 객체러 변환 → @RequestBody
      *
@@ -41,6 +42,7 @@ public class DepartmentController {
     }
 
     /**
+     * @PathVariable 어노테이션을 통해서 URL 경로에 있는 값을 파라미터로 받아온다. (Postman에서 Parameter Value 입력.)
      * @ResponseBody 어노테이션을 통해서 Get 요청에 대한 응답을 JSON 형태로 반환한다. 서버 → 클라이언트 응답시!
      *
      * [
