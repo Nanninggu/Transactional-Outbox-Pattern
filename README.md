@@ -5,7 +5,8 @@
 - Postgres
 - 자바 17
 
-### 2. 아키텍처는 아래와 같다.
+### 2. FlowDiagram은 아래와 같다.
+![TransactionalOutboxPattern](https://github.com/Nanninggu/Transactional-Outbox-Pattern/assets/54211801/b08a817e-ef6c-46dc-b196-7340f4db8423)
 
 ### 3. 기타 추가설명은 아래에 작성
 
